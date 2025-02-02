@@ -47,8 +47,8 @@ const BalanceSnapShot = mongoose.model('BalanceSnapShot', balanceSnapShotSchema)
 const DMI_PERIOD = 14;
 const SMA_PERIOD = 25;
 const ALLOCATION_PER_STOCK = 0.5;
-const TIMEFRAME = '1h';
-const CRON_SCHEDULE = '5 * * * *';
+const TIMEFRAME = '15m';
+const CRON_SCHEDULE = '*/16 * * * *';
 const TRADING_FEE_RATE = 0.0004;
 const INITIAL_BALANCE = 100000;
 
